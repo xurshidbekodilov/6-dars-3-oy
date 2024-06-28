@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dashboard__container{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.dashboard__menu{
+    padding-left: 43px;
+    padding-top: 50px;
+    position: fixed;
+    overflow: auto;
+    height: 100vh;
+}
+.dashboard__logo{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+    text-align: left;
+    color: rgba(21, 29, 72, 1);
+    margin-bottom: 49px;
+}
+.menu1{
+    width: 252px;
+    height: 64px;
+    border-radius: 16px;
+    padding: 16px, 24px;
+    padding-left: 24px;
+    display: flex;
+    align-items: center;
+    background-color: 
+    rgba(93, 95, 239, 1);
+    gap: 24px;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    color: 
+    rgba(255, 255, 255, 1);
+    margin-bottom: 48px; 
+    box-shadow: 0px 20px 50px 0px rgba(55, 69, 87, 0.1);
+}
+.menu2{
+    margin-left: 24px;
+    margin-bottom: 48px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: 
+    rgba(115, 119, 145, 1);
+}
+.menu2:nth-child(9){
+    margin-bottom: 136px;
+}
+.menu__card{
+    width: 238px;
+    height: 259px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(93, 95, 239, 1);
+}
+.menu__card img{
+    margin-top: 31.5px;
+    margin-left: 95.5px;
+    margin-bottom: 8px;
+}
+.menu__card h3{
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    color: white;
+    margin-bottom: 8px;
+}
+.menu__card p{
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+.menu__card button{
+    width: 136px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: white;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: 
+    rgba(93, 95, 239, 1);
+    border: none;
+    margin-left: 51.5px;
+    margin-bottom: 137px;
+}
+.dashboard__header{
+    margin-left: 345px;
+    padding-top: 30px;
+    padding-left: 32px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.dashboard__header h1{
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50.4px;
+    text-align: left;
+    color: rgba(21, 29, 72, 1);
+    margin-right: 100px;
+}
+.search-section{
+    width: 300px;
+    height: 50px;
+    border-radius: 16px;
+    padding: 2px, 32px, 2px, 24px;
+    padding-left: 24px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border: none;
+    background-color: 
+    rgba(249, 250, 251, 1);
+    margin-right: 35px;
+}
+.search-section input{
+    border: none;
+    width: 80%;
+    background-color: inherit;
+}
+input::placeholder{
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: rgba(115, 119, 145, 1)
+}
+input:focus{
+    outline: none;
+}
+.language{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    color: rgba(55, 69, 87, 1);
+    cursor: pointer;
+}
+.bell{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.admin{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 35px;
+}
+.admin h4{
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: 
+    rgba(21, 29, 72, 1);
+    margin-top: 6px;
+}
+.admin span{
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: 
+    rgba(115, 119, 145, 1);
+    margin-top: 4px;   
+}
+.down{
+margin-top: 0px;
+}
+.dashboard-texts{
+    margin-left: 345px;
+    margin-top: 152px;
+    background-color: rgba(249, 250, 251, 1);
+    z-index: 0;
+}
